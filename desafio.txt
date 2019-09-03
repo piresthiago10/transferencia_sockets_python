@@ -1,0 +1,31 @@
+# Desafio
+
+Criar um sistema simples de transferência de arquivo via rede.
+
+# Requisitos mínimos do sistema
+
+O software deve ser baseado na arquitetura cliente-servidor e deve permitir o envio de um 
+único arquivo ou uma lista deles.
+
+# Requisitos do desafio
+- O sistema precisa ser desenvolvido em Python v3.7+, usando a biblioteca socket do python.
+- Somente as extensões JPG, MP4 podem ser enviadas através desse aplicativo.
+- Não é necessário frontend, o sistema deve ser controlado via linha de comando. 
+- O código precisa ter testes automatizados (bônus para desenvolvimento TDD). 
+- O código precisa passar na validação por PyCodestyle (PEP8) e Pylint, que deve ser 
+executada automaticamente junto com os testes. Diretivas de exceção no código serão aceitas, 
+mas não exagere.
+
+# Critérios de avaliação
+- Organização, limpeza e legibilidade do código;
+- Correto funcionamento do sistema;
+- Qualidade e cobertura dos testes;
+- Documentação;
+
+# Observações
+Desenvolva seu código em um local público adicione um arquivo README explicando como instalar, 
+testar e executar o sistema (sob Linux Ubuntu). 
+Qualquer pessoa deve ser capaz de executar o sistema e os testes seguindo o passo-a-passo de
+instalação. 
+
+Sua primeira tarefa é informar o prazo de entrega.
