@@ -1,4 +1,4 @@
-# Transferência Sockets
+# Transferência via Sockets
 
 Sistema simples de transferência de um único arquivo ou uma lista deles via rede usando a biblioteca socket do python.
 
