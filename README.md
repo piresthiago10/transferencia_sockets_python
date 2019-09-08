@@ -46,6 +46,7 @@ pip install -r requirements.txt
 python3.7 server_side.py
 ```
 O Server Side irá emitir uma mensagem de espera pelo Client Side.
+
 10. Abra um novo terminal e repita os passos 5 e 7 e Execute o client_side.py
 ```
 python3.7 clint_side.py
