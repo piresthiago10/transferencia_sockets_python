@@ -3,11 +3,10 @@
 Sistema simples de transferência de um único arquivo ou uma lista deles via rede usando a biblioteca socket do python.
 
 ## Requisitos do sistema:
-- Python v3.7+, usando a biblioteca socket do python.
-- Somente as extensões JPG, MP4 podem ser enviadas através desse aplicativo.
-- Sistema controlado via linha de comando. 
-- Testes automatizados. 
-- Validação por PyCodestyle (PEP8) e Pylint.
+- Python v3.7+;
+- Somente as extensões JPG, MP4 podem ser enviadas através desse aplicativo;
+- Os arquivos devem ser informados com seu diretório completo: /home/<usuario>/imagens/<nome_arquivo>.jpg;
+- Sistema controlado via linha de comando;
 
 ## Preparando o ambiente (Linux - Ubuntu):
 
@@ -42,3 +41,13 @@ source <nome_da_venv>/bin/activate
 ```
 pip install -r requirements.txt
 ```
+9. Execute o server_side.py
+```
+python3.7 server_side.py
+```
+O Server Side irá emitir uma mensagem de espera pelo Client Side.
+10. Abra um novo terminal e repita os passos 5 e 7 e Execute o client_side.py
+```
+python3.7 clint_side.py
+```
+Irá aparecer um Menu para interagir com o sitema, ele é bem intuitivo!
