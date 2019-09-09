@@ -5,11 +5,11 @@ Sistema simples de transferência de um único arquivo ou uma lista deles via re
 ## Requisitos do sistema:
 - Python v3.7+;
 - Somente as extensões JPG, MP4 podem ser enviadas através desse aplicativo;
-- Os arquivos devem ser informados com seu diretório completo: /home/<usuario>/imagens/<nome_arquivo>.jpg;
+- Os arquivos devem ser informados com seu diretório completo: /home/usuario/imagens/nome_arquivo.jpg;
 - Sistema controlado via linha de comando;
 
 ## Exemplo de imagem do sistema:
-![](C:/Users/thiag/OneDrive/Imagens/socketspython.jpg)
+![Exemplo de imagem do sistema](https://piresthiago.com.br/minhas_imagens/socketspython.png)
 
 ## Preparando o ambiente (Linux - Ubuntu):
 
@@ -59,3 +59,11 @@ O Server Side irá emitir uma mensagem de espera pelo Client Side.
 python3.7 clint_side.py
 ```
 Irá aparecer um Menu para interagir com o sitema, ele é bem intuitivo!
+
+## Testes e validação do código:
+
+Não há muitos testes desenvolvidos para esse código, mas por motivos didáticos existe um teste automatizado que é executado junto das validações de código pycodestyle e pylint. Para executá-los basta estar no diretório do base do projeto e executar o seginte comando:
+
+```
+./automaizado.sh
+```
