@@ -13,9 +13,6 @@ def validar_caminho(caminho_arquivo):
     extensao = pathlib.Path(caminho_arquivo).suffix
     caminho = os.path.isfile(caminho_arquivo)
 
-    if caminho_arquivo in lista_arquivos:
-        print("O arquivo já está inserido na lista!")
-
     if caminho and extensao in extensions:
         return caminho_arquivo
     else:

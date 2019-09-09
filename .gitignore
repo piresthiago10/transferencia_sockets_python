@@ -2,3 +2,7 @@ venv
 desafio.txt
 .vscode
 __pycache__
+server_side2.py 
+client_side2.py
+arquivos_recebidos
+.pytest_cache
