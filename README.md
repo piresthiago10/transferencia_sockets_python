@@ -35,7 +35,7 @@ sudo apt-get install python3-venv
 5. Vá até o diretório do projeto
 6. Crie uma ambiente virtual
 ```
-python36 -m venv <nome_da_venv>
+python3 -m venv <nome_da_venv>
 ```
 7. Ative o ambiente virtual
 ```
