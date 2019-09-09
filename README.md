@@ -24,6 +24,10 @@ sudo apt-install python3.7
 ```
 sudo python get-pip.py
 ```
+ou
+```
+sudo apt install python.pip
+```
 4. Instale o ambiente virtual do Python
 ```
 sudo apt-get install python3-venv
