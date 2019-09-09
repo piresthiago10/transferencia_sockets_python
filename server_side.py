@@ -67,9 +67,9 @@ class ServerSide():
             try:
                 conn = self.connect_server()
                 print("Recebendo dados...")
-                dados = conn.recv(1024)
-                nome_arquivo = dados.decode()
-                print(nome_arquivo)
+                dados = conn.recv(128)
+                nome_arquivo = dados.decode('utf-8')
+                conn.send(dados) #Envia o nome do arquivo para o cliente.
                 with open(nome_arquivo, 'wb') as midia:
                     print("Mídia aberta")
                     print('Recebendo arquivo...')
