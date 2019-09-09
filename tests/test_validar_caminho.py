@@ -6,7 +6,7 @@ import os
 extensions = ['.jpg', '.JPG', '.jpeg', '.JPEG', '.mp4', '.MP4']
 
 # insira aqui os diretórios de algumas imagens que estão em seu computador
-lista_arquivos = ['C:/Users/thiag/OneDrive/Imagens/diagrama.jpg', 'C:/Users/thiag/OneDrive/Imagens/passaro.jpg', "C:/Users/thiag/OneDrive/Imagens/cavaleiro.jpg"]
+lista_arquivos = ['/image_sample/cachorro.jpg']
 
 def validar_caminho(caminho_arquivo):
 
@@ -20,10 +20,10 @@ def validar_caminho(caminho_arquivo):
 
 # testa se o arquivo está de acordo com as exigências
 def test_caminho_valido():
-    caminho_arquivo = "C:/Users/thiag/OneDrive/Imagens/cpf.jpg"
+    caminho_arquivo = "/image_sample/cachorro.jpg"
     assert validar_caminho(caminho_arquivo) == caminho_arquivo
 
 # testa se a extensão do arquivo consta na lista de extensões permitidas
 def test_caminho_invalido():
-    caminho_arquivo = "C:/Users/thiag/OneDrive/Imagens/diagrama.jpgf"
+    caminho_arquivo = "/image_sample/cachorro.jpgg"
     assert validar_caminho(caminho_arquivo) == print("O caminho ou arquivo não válido(s)!")

@@ -216,6 +216,7 @@ class ClientSide():
         print(f'Enviando o arquivo: {nome_arquivo}')
         with open(arquivo, 'rb') as midia:
             serversock.send(midia.read())
+            serversock.close()
         print('Arquivo enviado')
 
     # metodo principal
