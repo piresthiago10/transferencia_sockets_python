@@ -8,6 +8,9 @@ Sistema simples de transferência de um único arquivo ou uma lista deles via re
 - Os arquivos devem ser informados com seu diretório completo: /home/<usuario>/imagens/<nome_arquivo>.jpg;
 - Sistema controlado via linha de comando;
 
+## Exemplo de imagem do sistema:
+![](C:/Users/thiag/OneDrive/Imagens/socketspython.png)
+
 ## Preparando o ambiente (Linux - Ubuntu):
 
 ### Após baixar ou clonar o projeto abra o Terminal e faça o seguinte:
