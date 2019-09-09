@@ -206,14 +206,12 @@ class ClientSide():
         nome_arquivo = os.path.basename(arquivo)
         serversock.send(nome_arquivo.encode('utf-8'))
 
-        #Confirma que o servidor recebeu o nome do arquivo antes de enviar o conteudo.
         retorno_srv = serversock.recv(128).decode()
-        if (retorno_srv == nome_arquivo):
+        if retorno_srv == nome_arquivo:
             print('SUCESSO: Servidor recebeu o nome do arquivo correto.')
-            #enviar arquivo.
         else:
-             print(f'ERRO: Resposta do servidor diferente do nome do arquivo: {retorno_srv}')
-             #Informar erro e voltar ao menu principal
+            print(f'ERRO: Resposta do servidor diferente do nome do arquivo:')
+            print(retorno_srv)
 
         print(f'Enviando o arquivo: {nome_arquivo}')
         with open(arquivo, 'rb') as midia:
