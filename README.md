@@ -9,7 +9,7 @@ Sistema simples de transferência de um único arquivo ou uma lista deles via re
 - Sistema controlado via linha de comando;
 
 ## Exemplo de imagem do sistema:
-![](C:/Users/thiag/OneDrive/Imagens/socketspython.png)
+![](C:/Users/thiag/OneDrive/Imagens/socketspython.jpg)
 
 ## Preparando o ambiente (Linux - Ubuntu):
 
